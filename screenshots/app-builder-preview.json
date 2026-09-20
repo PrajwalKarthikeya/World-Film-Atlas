@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Box Office Atlas",
+      "hasCanvas": false,
+      "bodyTextLen": 462,
+      "bodyTextHash": "d39bf56c2b743f28be3246227dd2ddcb9b936d43b9f38122ec88dc7981c73ed7",
+      "bodyTextPrefix": "WORLD CINEMA Box Office Atlas Top film Screens Tickets Produced ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Box Office Atlas",
+      "hasCanvas": false,
+      "bodyTextLen": 509,
+      "bodyTextHash": "180b9df37b2f1c64f7831b88342298eb9145011e0e498d92db4fde0a851c4580",
+      "bodyTextPrefix": "WORLD CINEMA Box Office Atlas Top film Screens Tickets Produced ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
