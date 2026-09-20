@@ -1,0 +1,35 @@
+# dependencies
+node_modules/
+.node_modules.lock
+
+# build output
+dist/
+.output/
+.nitro/
+
+# environment
+.env
+.env.local
+.env.*.local
+
+# editor / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# tanstack generated
+.tanstack/
+
+# vercel
+.vercel/
+
+# grok
+.grok/
+
+# misc
+*.log
+npm-debug.log*
