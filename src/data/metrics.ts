@@ -29,6 +29,20 @@ export const METRICS: MetricDef[] = [
     description: "Feature films produced in a recent year",
     unit: "features / year",
   },
+  {
+    id: "imdbRating",
+    label: "IMDb rating",
+    shortLabel: "IMDb",
+    description: "Highest rated film on IMDb in the country",
+    unit: "rating",
+  },
+  {
+    id: "annualBoxOffice",
+    label: "Annual box office",
+    shortLabel: "Revenue",
+    description: "Total box office revenue per year in each country",
+    unit: "USD worldwide",
+  },
 ];
 
 export const DEFAULT_METRIC = METRICS[0]!.id;
