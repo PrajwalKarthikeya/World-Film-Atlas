@@ -10,10 +10,6 @@ export function metricValue(country: CountryRecord, metric: MetricId): number {
       return country.admissions;
     case "productions":
       return country.productions;
-    case "imdbRating":
-      return country.film.imdbRating ?? 0;
-    case "annualBoxOffice":
-      return country.annualBoxOffice;
   }
 }
 
@@ -55,10 +51,6 @@ export function formatMetric(country: CountryRecord, metric: MetricId): string {
       return formatAdmissions(country.admissions);
     case "productions":
       return formatNumber(country.productions);
-    case "imdbRating":
-      return (country.film.imdbRating ?? 0).toFixed(1);
-    case "annualBoxOffice":
-      return formatUSD(country.annualBoxOffice);
   }
 }
 

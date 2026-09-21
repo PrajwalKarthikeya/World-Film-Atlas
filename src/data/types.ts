@@ -6,7 +6,7 @@ export type Region =
   | "Oceania"
   | "Middle East";
 
-export type MetricId = "filmGross" | "screens" | "admissions" | "productions" | "imdbRating" | "annualBoxOffice";
+export type MetricId = "filmGross" | "screens" | "admissions" | "productions";
 
 export interface Film {
   title: string;
@@ -17,7 +17,6 @@ export interface Film {
   language: string;
   genre: string;
   worldwideGross: number;
-  imdbRating?: number; // New field
   synopsis: string;
 }
 
@@ -29,7 +28,6 @@ export interface CountryRecord {
   screens: number;
   admissions: number;
   productions: number;
-  annualBoxOffice: number; // New field
   film: Film;
 }
 
